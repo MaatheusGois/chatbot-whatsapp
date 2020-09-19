@@ -1,0 +1,17 @@
+{
+  "name": "test-send-whats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main"
+  },
+  "keywords": [],
+  "author": "Matheus Gois <matheusgoislimasilva@gmail.com>",
+  "license": "MIT"
+}
