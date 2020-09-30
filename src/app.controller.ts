@@ -18,7 +18,6 @@ export class AppController {
 
   @Get('send/:number/:message')
   sendMessage(@Param('number') numberParam: string, @Param('message') messageParam: string): Promise<string> {
-    console.log(numberParam, messageParam)
     if (!numberParam || !messageParam) { return }
     return this.appService.sendMessage(numberParam, messageParam);
   }
