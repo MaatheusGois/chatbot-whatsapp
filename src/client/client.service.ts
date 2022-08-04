@@ -35,7 +35,7 @@ export class ClientService {
             if (fs.existsSync(filePath)) {
                 this.sessionData = require(filePath);
             }
-            resolve();
+            resolve(null)
         })
     }
 
